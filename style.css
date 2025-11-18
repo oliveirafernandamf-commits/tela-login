@@ -1,0 +1,33 @@
+#form{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+input{
+    margin: 250px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+button{
+    width: 260px;
+    height: 30px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(43, 109, 231);
+}
